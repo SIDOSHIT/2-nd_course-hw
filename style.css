@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 640px);
+  padding-right: calc(50% - 640px);
+}
+
+.header {
+  background-image: url("./img/backgroundImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 1024px;
+  padding-top: 220px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 760px;
+}
+
+.header__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  width: 481px;
+  line-height: 32px;
+  color: rgb(176, 175, 175);
+  padding-bottom: 60px;
+}
+
+.header__span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  width: 481px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.header__btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background: #9c0332;
+  border-radius: 30px;
+  padding: 13px 75px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header__btn:hover {
+  background: #eb443f;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000915;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.product__game {
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  cursor: pointer;
+  width: 385px;
+  height: 300px;
+  transition: all 0.3s;
+  border-radius: 16px;
+}
+
+.product__game:hover {
+  box-shadow: 0px 0px 30px #1B4C8C;
+}
+
+.product__img {
+  width: 100%;
+  height: 100%;
+}
+
+.product__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
