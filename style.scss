@@ -53,7 +53,7 @@
   color: #ffffff;
 }
 
-.header__btn {
+.button {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -67,7 +67,7 @@
   transition: all 0.3s;
 }
 
-.header__btn:hover {
+.button:hover {
   background: #eb443f;
 }
 
@@ -109,6 +109,37 @@
   position: absolute;
   bottom: 32px;
   left: 32px;
+}
+
+// Product_game
+.game-box {
+  flex-wrap: nowrap;
+  &__content {
+    display: flex;
+    max-width: 584px;
+    gap: 32px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #ffffff;
+  }
+  &__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  &__img {
+    max-width: 485px;
+  }
 }
 
 @import "mobile";
