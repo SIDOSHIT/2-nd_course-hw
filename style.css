@@ -53,7 +53,7 @@
   color: #ffffff;
 }
 
-.header__btn {
+.button {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -67,7 +67,7 @@
   transition: all 0.3s;
 }
 
-.header__btn:hover {
+.button:hover {
   background: #eb443f;
 }
 
@@ -111,7 +111,37 @@
   left: 32px;
 }
 
-@media (max-width: 768px) {
+.game-box {
+  flex-wrap: nowrap;
+}
+.game-box__content {
+  display: flex;
+  max-width: 584px;
+  gap: 32px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.game-box__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+.game-box__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.game-box__img {
+  max-width: 485px;
+}
+
+@media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -145,5 +175,31 @@
   }
   .product {
     gap: 32px;
+  }
+  .game-box {
+    flex-wrap: wrap;
+  }
+  .game-box__content {
+    text-align: center;
+    align-items: center;
+  }
+  .game-box__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+  .game-box__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .game-box__img {
+    max-width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
