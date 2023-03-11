@@ -182,6 +182,7 @@
   .game-box__content {
     text-align: center;
     align-items: center;
+    order: 1;
   }
   .game-box__title {
     font-family: "Montserrat";
@@ -200,6 +201,7 @@
     color: #ffffff;
   }
   .game-box__img {
+    order: 2;
     max-width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
